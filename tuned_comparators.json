@@ -1,0 +1,15 @@
+{
+  "tuned": {
+    "static_bonus": "static_bonus|b=0.02|m=0",
+    "static_share": "static_share|phi=0.9",
+    "static_two_part": "static_two_part|phi=0.9|b=0.02|m=1",
+    "trigger_rules": "trigger_rules|te=5.0|tr=12.0|ta=2.0"
+  },
+  "criterion": "lowest mean contractor cost in days of delay damages on development projects, 8 replications",
+  "n_configs": {
+    "static_bonus": 8,
+    "static_share": 5,
+    "static_two_part": 12,
+    "trigger_rules": 18
+  }
+}

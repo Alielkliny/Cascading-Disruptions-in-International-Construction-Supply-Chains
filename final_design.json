@@ -1,0 +1,5 @@
+{
+ "penalty_discount": 1.0,
+ "delay_premium": 0.5,
+ "delay_threshold": 3.0
+}

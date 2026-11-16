@@ -1,0 +1,422 @@
+{
+  "construction_untracked": 85,
+  "status_counts": {
+    "admitted": 50,
+    "too_short": 16,
+    "cpm_mismatch": 9,
+    "baseline_infeasible": 6,
+    "sparse_network": 2,
+    "parse_error: network has a cycle": 2
+  },
+  "admitted": 50,
+  "built": 20,
+  "duplicates_dropped": [],
+  "fresh_test": [
+    "C2011-10",
+    "C2012-05",
+    "C2012-14",
+    "C2012-17",
+    "C2016-38",
+    "C2016-39",
+    "C2017-01",
+    "C2018-03",
+    "C2018-10",
+    "C2019-09",
+    "C2019-10",
+    "C2019-18",
+    "C2019-19",
+    "C2019-25",
+    "C2023-12",
+    "C2024-05",
+    "C2025-10",
+    "C2025-14",
+    "C2025-15",
+    "C2025-18"
+  ],
+  "rows": [
+    {
+      "code": "C2011-01",
+      "built": false
+    },
+    {
+      "code": "C2011-02",
+      "built": false
+    },
+    {
+      "code": "C2011-04",
+      "built": false
+    },
+    {
+      "code": "C2011-08",
+      "built": false
+    },
+    {
+      "code": "C2011-10",
+      "built": true,
+      "K": 4,
+      "n_act": 35,
+      "pd": 195.0,
+      "links": [
+        "Carpentry outside (part 3)",
+        "Ceiling - False ceiling",
+        "Ventilation phase 2 (part 1)",
+        "Ventilation phase 2 (part 2)"
+      ]
+    },
+    {
+      "code": "C2011-14",
+      "built": false
+    },
+    {
+      "code": "C2012-03",
+      "built": false
+    },
+    {
+      "code": "C2012-04",
+      "built": false
+    },
+    {
+      "code": "C2012-05",
+      "built": true,
+      "K": 4,
+      "n_act": 20,
+      "pd": 1289.0,
+      "links": [
+        "Staged Demolition of Parts North",
+        "Construction of Abutment North",
+        "Construction of Abutment South",
+        "Demolition of Excisting TBZ Bridge"
+      ]
+    },
+    {
+      "code": "C2012-06",
+      "built": false
+    },
+    {
+      "code": "C2012-08",
+      "built": false
+    },
+    {
+      "code": "C2012-12",
+      "built": false
+    },
+    {
+      "code": "C2012-14",
+      "built": true,
+      "K": 4,
+      "n_act": 49,
+      "pd": 1299.0,
+      "links": [
+        "Constructing road B",
+        "Constructing an emergency side strip side B",
+        "clearing all equipment from the site",
+        "clearing all equipment from the site"
+      ]
+    },
+    {
+      "code": "C2012-17",
+      "built": true,
+      "K": 4,
+      "n_act": 34,
+      "pd": 145.0,
+      "links": [
+        "Installation of kitchen",
+        "Installation of bathroom",
+        "Terrace construction",
+        "Garden landscaping"
+      ]
+    },
+    {
+      "code": "C2016-35",
+      "built": false
+    },
+    {
+      "code": "C2016-36",
+      "built": false
+    },
+    {
+      "code": "C2016-38",
+      "built": true,
+      "K": 4,
+      "n_act": 30,
+      "pd": 115.0,
+      "links": [
+        "Tiling floor (basement + ground level)",
+        "Kitchen installment",
+        "Inner doors",
+        "Bathroom installment"
+      ]
+    },
+    {
+      "code": "C2016-39",
+      "built": true,
+      "K": 4,
+      "n_act": 31,
+      "pd": 181.0,
+      "links": [
+        "Llaminated floor (First level)",
+        "Kitchen installment",
+        "Inner doors",
+        "Bathroom installment"
+      ]
+    },
+    {
+      "code": "C2016-40",
+      "built": false
+    },
+    {
+      "code": "C2017-01",
+      "built": true,
+      "K": 6,
+      "n_act": 52,
+      "pd": 383.0,
+      "links": [
+        "Building elevator shafts",
+        "Building steel columns (vertical support)",
+        "Building radial roof elements, whether they be cables or steel truss elements",
+        "Building roof",
+        "Building cladding elements for both the fa\u00e7ade and roof can be applied",
+        "Hardware installation"
+      ]
+    },
+    {
+      "code": "C2017-03",
+      "built": false
+    },
+    {
+      "code": "C2018-03",
+      "built": true,
+      "K": 4,
+      "n_act": 21,
+      "pd": 177.0,
+      "links": [
+        "Roof",
+        "Floor",
+        "MEP",
+        "Exterior Joinery"
+      ]
+    },
+    {
+      "code": "C2018-10",
+      "built": true,
+      "K": 4,
+      "n_act": 43,
+      "pd": 100.0,
+      "links": [
+        "Plaatsen en aansluiten van spuitmonden",
+        "Omhullen van leidingen met zandcement",
+        "Plaatsen van afvoerleidingen",
+        "Elektrische keuring installatie"
+      ]
+    },
+    {
+      "code": "C2019-09",
+      "built": true,
+      "K": 6,
+      "n_act": 41,
+      "pd": 215.0,
+      "links": [
+        "Place Reinforcing Steel",
+        "Installation of Roof",
+        "Installation of Windows",
+        "Installation of Heating Elements",
+        "Installation of Electricity",
+        "Installation of Ventilation/AC"
+      ]
+    },
+    {
+      "code": "C2019-10",
+      "built": true,
+      "K": 4,
+      "n_act": 47,
+      "pd": 115.0,
+      "links": [
+        "Measurement of interior joinery",
+        "Installation of interior joinery",
+        "Placement of kitchen furniture (green)",
+        "Finishing ventilation"
+      ]
+    },
+    {
+      "code": "C2019-12",
+      "built": false
+    },
+    {
+      "code": "C2019-18",
+      "built": true,
+      "K": 4,
+      "n_act": 24,
+      "pd": 163.0,
+      "links": [
+        "Assembly W3",
+        "Roof W3",
+        "Flooring inside",
+        "Sprinkler installation"
+      ]
+    },
+    {
+      "code": "C2019-19",
+      "built": true,
+      "K": 4,
+      "n_act": 26,
+      "pd": 130.0,
+      "links": [
+        "Laying floor screed",
+        "Floor tiling",
+        "Installation kitchen",
+        "Installation bathroom"
+      ]
+    },
+    {
+      "code": "C2019-20",
+      "built": false
+    },
+    {
+      "code": "C2019-22",
+      "built": false
+    },
+    {
+      "code": "C2019-23",
+      "built": false
+    },
+    {
+      "code": "C2019-24",
+      "built": false
+    },
+    {
+      "code": "C2019-25",
+      "built": true,
+      "K": 4,
+      "n_act": 1796,
+      "pd": 1306.0,
+      "links": [
+        "dragende muren + new jerseys",
+        "gekromde wand",
+        "bekisten(S3)",
+        "wapenen"
+      ]
+    },
+    {
+      "code": "C2019-26",
+      "built": false
+    },
+    {
+      "code": "C2019-27",
+      "built": false
+    },
+    {
+      "code": "C2019-28",
+      "built": false
+    },
+    {
+      "code": "C2023-12",
+      "built": true,
+      "K": 4,
+      "n_act": 85,
+      "pd": 383.0,
+      "links": [
+        "Engineering",
+        "Production",
+        "Lead time MS",
+        "Montage"
+      ]
+    },
+    {
+      "code": "C2023-13",
+      "built": false
+    },
+    {
+      "code": "C2023-14",
+      "built": false
+    },
+    {
+      "code": "C2024-05",
+      "built": true,
+      "K": 4,
+      "n_act": 111,
+      "pd": 272.0,
+      "links": [
+        "Develop announcements",
+        "Generate 'buzz'",
+        "Perform Inside sales calls",
+        "Execute campaign"
+      ]
+    },
+    {
+      "code": "C2025-06",
+      "built": false
+    },
+    {
+      "code": "C2025-09",
+      "built": false
+    },
+    {
+      "code": "C2025-10",
+      "built": true,
+      "K": 4,
+      "n_act": 114,
+      "pd": 131.0,
+      "links": [
+        "TARRAJEO EN MUROS EXTERIORES",
+        "BRU\u00d1AS",
+        "PISO DE CERAMICO 40CM X 40CM ANTIDESLIZANTE",
+        "PUERTAS DE MADERA TABLEROS REBAJADOS"
+      ]
+    },
+    {
+      "code": "C2025-11",
+      "built": false
+    },
+    {
+      "code": "C2025-12",
+      "built": false
+    },
+    {
+      "code": "C2025-14",
+      "built": true,
+      "K": 4,
+      "n_act": 82,
+      "pd": 354.0,
+      "links": [
+        "ENCOFRADO Y DESENCOFRADO NORMAL",
+        "ACERO FY = 4200 KG/CM2 GRADO 60",
+        "CONCRETO F'C=210 KG/CM2",
+        "CAPACITACION DE OPERACION Y MANTENIMIENTO"
+      ]
+    },
+    {
+      "code": "C2025-15",
+      "built": true,
+      "K": 4,
+      "n_act": 50,
+      "pd": 353.0,
+      "links": [
+        "PERFILADO Y COMPACTADO DE FONDO",
+        "CONCRETO F'C=175 KG/CM2",
+        "ACARREO DE MATERIAL EXCEDENTE EN CARRETILLA D = 50 MT",
+        "JUNTA ASFALTICA E= 1\" @ 3.00 m"
+      ]
+    },
+    {
+      "code": "C2025-18",
+      "built": true,
+      "K": 4,
+      "n_act": 267,
+      "pd": 104.0,
+      "links": [
+        "CONDUCTOR ELECTRICO DE 2.5 MM2, NH-80 PARA ALUMBRADO",
+        "SUMINISTRO E INSTALACION DE TABLERO DE ARRANQUE Y PARADA DE ELECTROBOMBA DISTRIBUCION METALICO TD-01 220V -60HZ",
+        "PARARRAYO TETRAPUNTAL",
+        "POZO CONEXION A TIERRA"
+      ]
+    },
+    {
+      "code": "C2025-23",
+      "built": false
+    },
+    {
+      "code": "C2025-27",
+      "built": false
+    }
+  ]
+}

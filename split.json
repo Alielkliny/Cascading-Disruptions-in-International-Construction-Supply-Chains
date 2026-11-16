@@ -1,0 +1,948 @@
+{
+  "case": "C2011-13",
+  "case_links": [
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100
+  ],
+  "pool": [
+    "C2011-12",
+    "C2012-13",
+    "C2013-01",
+    "C2013-02",
+    "C2013-06",
+    "C2013-08",
+    "C2013-09",
+    "C2013-10",
+    "C2013-11",
+    "C2013-12",
+    "C2014-01",
+    "C2014-05",
+    "C2014-06",
+    "C2014-07",
+    "C2015-29",
+    "C2016-01",
+    "C2016-03",
+    "C2016-04",
+    "C2016-05",
+    "C2016-06",
+    "C2016-11",
+    "C2016-12",
+    "C2016-13",
+    "C2016-14",
+    "C2016-21",
+    "C2016-29"
+  ],
+  "development": [
+    "C2011-12",
+    "C2012-13",
+    "C2013-01",
+    "C2013-10",
+    "C2014-01",
+    "C2014-05",
+    "C2016-06",
+    "C2016-11",
+    "C2016-14",
+    "C2016-29"
+  ],
+  "test": [
+    "C2013-02",
+    "C2013-06",
+    "C2013-08",
+    "C2013-09",
+    "C2013-11",
+    "C2013-12",
+    "C2014-06",
+    "C2014-07",
+    "C2015-29",
+    "C2016-01",
+    "C2016-03",
+    "C2016-04",
+    "C2016-05",
+    "C2016-12",
+    "C2016-13",
+    "C2016-21"
+  ],
+  "split_seed": 20261102,
+  "dropped_duplicates": [
+    "C2016-22",
+    "C2016-23",
+    "C2016-24"
+  ],
+  "rule": "admitted DSLIB construction projects with K>=4 linked activities (top-6 fixed-cost activities with baseline start >= 80 working days) and a non-negative production release",
+  "rows": [
+    {
+      "code": "C2011-12",
+      "name": "Claeys-Verhelst Premises",
+      "n_act": 49,
+      "pd": 442.0,
+      "built": true,
+      "K": 4,
+      "links": [
+        "v1screed",
+        "techniques",
+        "painting",
+        "furniture"
+      ],
+      "wbar": 80324.01501464844,
+      "cd": 3027.1330000000003
+    },
+    {
+      "code": "C2012-13",
+      "name": "Pumping Station Jabbeke",
+      "n_act": 75,
+      "pd": 125.0,
+      "built": true,
+      "K": 6,
+      "links": [
+        "leveren en plaatsen bekabeling binnenverlichting , stopcontacten en klimatisatie",
+        "plaatsen en aansluiten verlichting en stopcontacten pomplokaal",
+        "leveren en installeren branddetectie",
+        "leveren en installeren klimatisatie in pomplokaal , bureau en HS",
+        "kabelnummering bord",
+        "identificatie kabels en toestellen"
+      ],
+      "wbar": 2052.5983276367183,
+      "cd": 336.41
+    },
+    {
+      "code": "C2013-01",
+      "name": "Wiedauwkaai Fenders",
+      "n_act": 42,
+      "pd": 152.0,
+      "built": true,
+      "K": 4,
+      "links": [
+        "Scheepvaartseinen",
+        "Kabels voedingen",
+        "Scheepvaartseinen",
+        "Kabels voedingen"
+      ],
+      "wbar": 26208.134765625,
+      "cd": 1069.5330000000001
+    },
+    {
+      "code": "C2013-02",
+      "name": "Sewage Plant Hove",
+      "n_act": 181,
+      "pd": 403.0,
+      "built": true,
+      "K": 5,
+      "links": [
+        "demontage bestaande EM-uitrusting",
+        "leveren en plaatsen(BB2): schotbalken, wandafsluiter,meng en meettoestellen, beluchtingssysteem,...",
+        "leveren en plaatsen(BR3): voorstuwers,beluchtingssysteem",
+        "revisie steekschuiven",
+        "electriciteit: kabels en lokale borden"
+      ],
+      "wbar": 1.0,
+      "cd": 1236.604
+    },
+    {
+      "code": "C2013-04",
+      "name": "Kitchen Tower Anderlecht",
+      "n_act": 252,
+      "pd": 333.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2013-06",
+      "name": "Government Office Building",
+      "n_act": 276,
+      "pd": 352.0,
+      "built": true,
+      "K": 4,
+      "links": [
+        "gk strook gevel structuur",
+        "vloergoten + verhoogde vloer + bekabeling",
+        "binnenschrijnwerk",
+        "opleveringen faze 2"
+      ],
+      "wbar": 57531.58972167969,
+      "cd": 19429.808
+    },
+    {
+      "code": "C2013-07",
+      "name": "Family Residence",
+      "n_act": 46,
+      "pd": 170.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2013-08",
+      "name": "Timber House",
+      "n_act": 42,
+      "pd": 216.0,
+      "built": true,
+      "K": 4,
+      "links": [
+        "Afwerking (intern)",
+        "Sanitair - ventilatie (tweede fase)",
+        "Verwarming (tweede fase)",
+        "Elektriciteit (tweede fase)"
+      ],
+      "wbar": 15262.485290527346,
+      "cd": 501.03000000000003
+    },
+    {
+      "code": "C2013-09",
+      "name": "Urban Development Project",
+      "n_act": 72,
+      "pd": 291.0,
+      "built": true,
+      "K": 6,
+      "links": [
+        "Dakopstanden",
+        "Isolatie + roofing platte daken",
+        "Plaatsen elektriciteit / sanitair / HVAC_blok 1",
+        "Plaatsen elektriciteit / sanitair / HVAC_blok 2",
+        "Plaatsen elektriciteit / sanitair / HVAC_blok 3",
+        "Plaatsen elektriciteit / sanitair / HVAC_blok 4"
+      ],
+      "wbar": 46412.37109375,
+      "cd": 1537.3980000000001
+    },
+    {
+      "code": "C2013-10",
+      "name": "Town Square",
+      "n_act": 197,
+      "pd": 786.0,
+      "built": true,
+      "K": 4,
+      "links": [
+        "Constructie O1 (gedeeltelijke prefab)",
+        "Aanleg def verharding kruispunt",
+        "Aanleg verharding straat C",
+        "Straatmeubilair en aanplanting"
+      ],
+      "wbar": 262284.109375,
+      "cd": 11421.89
+    },
+    {
+      "code": "C2013-11",
+      "name": "Recreation Complex",
+      "n_act": 167,
+      "pd": 359.0,
+      "built": true,
+      "K": 4,
+      "links": [
+        "Grondwerk rond sporthal",
+        "Grondwerk uitgraving wegenis van nieuwe sporthal nr ingang",
+        "Plaatsen asfalt",
+        "Uitvoering omnisportveld, plaatsen prefabstukken, fundering,\u2026"
+      ],
+      "wbar": 135867.48583984375,
+      "cd": 5480.52
+    },
+    {
+      "code": "C2013-12",
+      "name": "Young Cattle Barn",
+      "n_act": 30,
+      "pd": 115.0,
+      "built": true,
+      "K": 4,
+      "links": [
+        "Gevelbekledingen",
+        "Rioleringen",
+        "Sanitair",
+        "Hekkens"
+      ],
+      "wbar": 40998.8466796875,
+      "cd": 818.44
+    },
+    {
+      "code": "C2013-15",
+      "name": "Office Finishing Works (3)",
+      "n_act": 18,
+      "pd": 171.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2013-17",
+      "name": "Office Finishing Works (5)",
+      "n_act": 24,
+      "pd": 161.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2014-01",
+      "name": "Mixed-use Building",
+      "n_act": 53,
+      "pd": 474.0,
+      "built": true,
+      "K": 4,
+      "links": [
+        "Techniques hors sol",
+        "Parach\u00e8vements hors sol",
+        "Etage +11 Toiture",
+        "Unit\u00e9s terminales"
+      ],
+      "wbar": 3151142.8125,
+      "cd": 38697.824
+    },
+    {
+      "code": "C2014-04",
+      "name": "Compressor Station Zelzate",
+      "n_act": 25,
+      "pd": 522.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2014-05",
+      "name": "Apartment Building (1)",
+      "n_act": 26,
+      "pd": 228.0,
+      "built": true,
+      "K": 6,
+      "links": [
+        "Wachtgevel",
+        "Dakbedekking & Zinkwerk",
+        "Sanitaire technieken",
+        "Electriciteitstechnieken",
+        "Plaatsen Sanitaire Toestellen & Radiatoren",
+        "Trappen en Deuren"
+      ],
+      "wbar": 6861.965006510417,
+      "cd": 532.41
+    },
+    {
+      "code": "C2014-06",
+      "name": "Apartment Building (2)",
+      "n_act": 30,
+      "pd": 547.0,
+      "built": true,
+      "K": 5,
+      "links": [
+        "Dakstructuur",
+        "Dakbedekking & Zinkwerk",
+        "Sanitaire technieken",
+        "Elektriciteitstechnieken",
+        "Plaatsen Sanitaire Toestellen & Radiatoren"
+      ],
+      "wbar": 79297.4390625,
+      "cd": 3486.376
+    },
+    {
+      "code": "C2014-07",
+      "name": "Apartment Building (3)",
+      "n_act": 26,
+      "pd": 352.0,
+      "built": true,
+      "K": 6,
+      "links": [
+        "Dakstructuur",
+        "Dakbedekking & Zinkwerk",
+        "Sanitaire technieken",
+        "Elektriciteitstechnieken",
+        "Trappen en Deuren",
+        "Plaatsen Sanitaire Toestellen & Radiatoren"
+      ],
+      "wbar": 13548.13525390625,
+      "cd": 1102.537
+    },
+    {
+      "code": "C2014-08",
+      "name": "Apartment Building (4)",
+      "n_act": 39,
+      "pd": 233.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2015-01",
+      "name": "Young Cattle Barn (2)",
+      "n_act": 28,
+      "pd": 131.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2015-02",
+      "name": "Railway Station (1)",
+      "n_act": 216,
+      "pd": 417.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2015-03",
+      "name": "Industrial Complex (1)",
+      "n_act": 135,
+      "pd": 257.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2015-04",
+      "name": "Apartment Building (5)",
+      "n_act": 57,
+      "pd": 160.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2015-05",
+      "name": "Apartment Building (6)",
+      "n_act": 65,
+      "pd": 120.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2015-06",
+      "name": "Family Residence (2)",
+      "n_act": 185,
+      "pd": 260.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2015-07",
+      "name": "Industrial Complex (2)",
+      "n_act": 138,
+      "pd": 297.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2015-08",
+      "name": "Garden Center",
+      "n_act": 186,
+      "pd": 191.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2015-09",
+      "name": "Railway Station (2)",
+      "n_act": 348,
+      "pd": 354.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2015-27",
+      "name": "Railway Station Antwerp",
+      "n_act": 18,
+      "pd": 68.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2015-29",
+      "name": "Fire Station",
+      "n_act": 205,
+      "pd": 284.0,
+      "built": true,
+      "K": 6,
+      "links": [
+        "Plaatsen prefabbalken",
+        "Plaatsen schuimbeton (OA) + dakisolatiesysteem (OA)",
+        "Plaatsen staalstructuur bovendaks (OA)",
+        "Dakopbouw fase 1 (OA)",
+        "Plaatsen groen dak",
+        "Dakopbouw fase 2 (OA)"
+      ],
+      "wbar": 24758.616455078125,
+      "cd": 1874.497
+    },
+    {
+      "code": "C2015-30",
+      "name": "Social Apartments Ypres (1)",
+      "n_act": 41,
+      "pd": 244.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2015-31",
+      "name": "Social Apartments Ypres (2)",
+      "n_act": 30,
+      "pd": 271.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2015-32",
+      "name": "Social Apartments Ypres (3)",
+      "n_act": 54,
+      "pd": 358.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2016-01",
+      "name": "Railway Bridge (1)",
+      "n_act": 28,
+      "pd": 225.0,
+      "built": true,
+      "K": 4,
+      "links": [
+        "Verbindingsbalken brug",
+        "Aanbrengen waterdichte rok",
+        "Aanvullingen en wegeniswerken",
+        "Afwerkingen"
+      ],
+      "wbar": 50430.021484375,
+      "cd": 671.384
+    },
+    {
+      "code": "C2016-02",
+      "name": "Railway Bridge (2)",
+      "n_act": 23,
+      "pd": 229.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2016-03",
+      "name": "Railway Bridge (3)",
+      "n_act": 25,
+      "pd": 203.0,
+      "built": true,
+      "K": 4,
+      "links": [
+        "Verbindingsbalken brug",
+        "Aanbrengen waterdichte rok",
+        "Aanvullingen en wegeniswerken",
+        "Afwerkingen"
+      ],
+      "wbar": 24545.542419433594,
+      "cd": 926.888
+    },
+    {
+      "code": "C2016-04",
+      "name": "Railway Bridge (4)",
+      "n_act": 26,
+      "pd": 248.0,
+      "built": true,
+      "K": 4,
+      "links": [
+        "Zakken bekisting + verschuiven en opkuisen",
+        "Plaatsen dakdichting",
+        "Aanvullen boogbrug",
+        "Afwerkingen"
+      ],
+      "wbar": 35314.94219970703,
+      "cd": 906.254
+    },
+    {
+      "code": "C2016-05",
+      "name": "Railway Bridge (5)",
+      "n_act": 32,
+      "pd": 195.0,
+      "built": true,
+      "K": 4,
+      "links": [
+        "Betonneren",
+        "Waterdichting",
+        "Aanvullen",
+        "Afwerkingen"
+      ],
+      "wbar": 31161.0830078125,
+      "cd": 832.4970000000001
+    },
+    {
+      "code": "C2016-06",
+      "name": "Defense Building",
+      "n_act": 99,
+      "pd": 252.0,
+      "built": true,
+      "K": 4,
+      "links": [
+        "Opstellen systeem validatie templates IQ/OQ/PQ protocol",
+        "Nakijken van uitgevoerde testen door uitvoerders",
+        "Opstellen systeemvalidatierapporten IQ/OQ/PQ",
+        "Ondersteuning ontwikkeling SOP's"
+      ],
+      "wbar": 8640.0,
+      "cd": 4331.26
+    },
+    {
+      "code": "C2016-07",
+      "name": "Shopping Village Walkways",
+      "n_act": 111,
+      "pd": 224.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2016-11",
+      "name": "Residential House (1)",
+      "n_act": 55,
+      "pd": 241.0,
+      "built": true,
+      "K": 6,
+      "links": [
+        "Daktimmer traditioneel / prefabkap",
+        "Dakdekken",
+        "Afdichting/Groendaken/Plat dak",
+        "Buitenschrijnwerk plaatsen",
+        "Leidingen vloerverwarming",
+        "Afwerken sanitair"
+      ],
+      "wbar": 4764.0,
+      "cd": 162.472
+    },
+    {
+      "code": "C2016-12",
+      "name": "Residential House (2)",
+      "n_act": 59,
+      "pd": 291.0,
+      "built": true,
+      "K": 6,
+      "links": [
+        "Parament",
+        "Daktimmer traditioneel/prefabkap",
+        "Dakdekken",
+        "Afdichting/groendaken/plat dak",
+        "Leidingen vloerverwarming",
+        "Afwerken sanitair"
+      ],
+      "wbar": 6916.5,
+      "cd": 222.858
+    },
+    {
+      "code": "C2016-13",
+      "name": "Residential House (3)",
+      "n_act": 51,
+      "pd": 306.0,
+      "built": true,
+      "K": 6,
+      "links": [
+        "Parament",
+        "Daktimmer traditioneel/prefabkap",
+        "Dakdekken",
+        "Buitenschrijnwerk plaatsen",
+        "Slijpen technieken/boringen",
+        "Leidingen vloerverwarming"
+      ],
+      "wbar": 18564.0,
+      "cd": 367.952
+    },
+    {
+      "code": "C2016-14",
+      "name": "Residential House (4)",
+      "n_act": 48,
+      "pd": 321.0,
+      "built": true,
+      "K": 6,
+      "links": [
+        "Daktimmer traditioneel/prefabkap",
+        "Dakdekken",
+        "Oversteken/Gevelbekleding",
+        "Dakvlakramen",
+        "Buitenschrijnwerk plaatsen",
+        "Afwerken sanitair"
+      ],
+      "wbar": 11313.833333333334,
+      "cd": 218.366
+    },
+    {
+      "code": "C2016-16",
+      "name": "Residential House Finishing Works (1)",
+      "n_act": 24,
+      "pd": 90.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2016-17",
+      "name": "Residential House Finishing Works (2)",
+      "n_act": 24,
+      "pd": 86.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2016-18",
+      "name": "Residential House Finishing Works (3)",
+      "n_act": 25,
+      "pd": 91.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2016-19",
+      "name": "Residential House Finishing Works (4)",
+      "n_act": 25,
+      "pd": 91.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2016-20",
+      "name": "Residential House Finishing Works (5)",
+      "n_act": 25,
+      "pd": 91.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2016-21",
+      "name": "Residential House Finishing Works (6)",
+      "n_act": 24,
+      "pd": 101.0,
+      "built": true,
+      "K": 4,
+      "links": [
+        "Afw elektr",
+        "Afw ventilatie",
+        "Afw san/cv",
+        "Afw vloer"
+      ],
+      "wbar": 3947.2725219726576,
+      "cd": 54.324
+    },
+    {
+      "code": "C2016-22",
+      "name": "Residential House Finishing Works (7)",
+      "n_act": 24,
+      "pd": 101.0,
+      "built": true,
+      "K": 4,
+      "links": [
+        "Afw elektr",
+        "Afw ventilatie",
+        "Afw san/cv",
+        "Afw vloer"
+      ],
+      "wbar": 4000.862548828125,
+      "cd": 56.969
+    },
+    {
+      "code": "C2016-23",
+      "name": "Residential House Finishing Works (8)",
+      "n_act": 24,
+      "pd": 101.0,
+      "built": true,
+      "K": 4,
+      "links": [
+        "Afw elektr",
+        "Afw ventilatie",
+        "Afw san/cv",
+        "Afw vloer"
+      ],
+      "wbar": 4086.3924560546875,
+      "cd": 56.183
+    },
+    {
+      "code": "C2016-24",
+      "name": "Residential House Finishing Works (9)",
+      "n_act": 24,
+      "pd": 101.0,
+      "built": true,
+      "K": 4,
+      "links": [
+        "Afw elektr",
+        "Afw ventilatie",
+        "Afw san/cv",
+        "Afw vloer"
+      ],
+      "wbar": 3783.5374755859375,
+      "cd": 52.263
+    },
+    {
+      "code": "C2016-25",
+      "name": "Residential House Finishing Works (10)",
+      "n_act": 24,
+      "pd": 91.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2016-26",
+      "name": "Residential House Finishing Works (11)",
+      "n_act": 24,
+      "pd": 91.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2016-27",
+      "name": "Apartment Building Foundations",
+      "n_act": 16,
+      "pd": 78.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2016-28",
+      "name": "Apartment Building Structural Work (1)",
+      "n_act": 20,
+      "pd": 71.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2016-29",
+      "name": "Apartment Building Structural Work (2)",
+      "n_act": 19,
+      "pd": 129.0,
+      "built": true,
+      "K": 4,
+      "links": [
+        "afdek verdieping +2 blok A welfsels + opstort druklaag",
+        "dragend metselwerk snelbouw +3 blok A",
+        "balken/liggers boven +3 blok A",
+        "afdek verdieping +3 blok A welfsels + opstort druklaag"
+      ],
+      "wbar": 137571.5,
+      "cd": 1797.874
+    },
+    {
+      "code": "C2016-30",
+      "name": "Apartment Building Structural Work (3)",
+      "n_act": 23,
+      "pd": 85.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2016-31",
+      "name": "Apartment Building Finishing Works (1)",
+      "n_act": 23,
+      "pd": 105.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2016-32",
+      "name": "Apartment Building Finishing Works (2)",
+      "n_act": 22,
+      "pd": 89.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2016-33",
+      "name": "Apartment Building Finishing Works (3)",
+      "n_act": 23,
+      "pd": 116.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    },
+    {
+      "code": "C2016-34",
+      "name": "Apartment Building Finishing Works (4)",
+      "n_act": 23,
+      "pd": 83.0,
+      "built": false,
+      "K": null,
+      "links": null,
+      "wbar": null,
+      "cd": null
+    }
+  ]
+}
